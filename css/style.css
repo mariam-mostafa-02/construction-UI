@@ -1,0 +1,750 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+QLD+Beginner&family=Fira+Sans+Condensed:ital,wght@1,300&family=Hedvig+Letters+Serif:opsz@12..24&family=Indie+Flower&family=Lato:ital,wght@0,400;0,700;1,700&family=Playpen+Sans:wght@300&family=Poppins:ital,wght@1,300&family=Readex+Pro:wght@700&family=Rubik:ital,wght@0,400;0,500;1,300;1,900&display=swap');
+/*font-family: 'Edu QLD Beginner', cursive;
+font-family: 'Fira Sans Condensed', sans-serif;
+font-family: 'Hedvig Letters Serif', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Playpen Sans', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@900&display=swap');
+
+/* font-family: 'Fira Sans Condensed', sans-serif; */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+main {
+    width: 100%;
+    min-height: 1000px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin-inline: auto;
+}
+
+.golden {
+    height: 40Px;
+    background: goldenrod;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+    align-items: center;
+}
+
+.golden span {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    max-width: 40%;
+}
+
+.golden span i {
+    padding-right: 10px;
+}
+
+.golden div {
+    display: flex;
+    text-wrap: nowrap;
+    justify-content: space-between;
+    font-size: 22px;
+    gap: 40px;
+}
+
+/* ########################## END THE GOLDEN NAV ########################### */
+
+header {
+    width: 100%;
+    position: absolute;
+    top: 40px;
+    background: #252525;
+    z-index: 999;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo h1 {
+    color: gold;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.logo h4 {
+    color: darkgray;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    gap: 25px;
+
+}
+
+nav > i {
+    display: none !important;
+}
+
+nav ul li {
+    color: lightgray;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+nav ul li:hover {
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+/* ########################## END THE GRAY NAV ########################### */
+
+section:first-of-type {
+    width: 100%;
+    min-height: 800px;
+    margin-top: 90px;
+    background: url(../images/1.jpg) no-repeat center/ cover;
+    background-color: rgba(0, 0, 0, 45%);
+    background-blend-mode: darken;
+}
+
+section:first-of-type .container {
+    padding: 100px 0px;
+}
+
+section:first-of-type h3 {
+    color: lightgray;
+    font-size: 34px;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+}
+
+section:first-of-type h1 {
+    color: white;
+    font-size: 55px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+section:first-of-type .colored {
+    color: gold;
+    font-size: 65px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section:first-of-type p {
+    width: 100%;
+    padding: 40px 0px;
+    color: lightgray;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+section:first-of-type a {
+    text-decoration: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    background: gold;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Hedvig Letters Serif', serif;
+    text-align: center;
+    padding-top: 5px;
+}
+
+section:first-of-type .but {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    padding-top: 100px;
+}
+
+section:first-of-type a:hover {
+    background: #252525;
+}
+
+/* ############################ END OF SECTION 1 #################### */
+
+section:nth-of-type(2) {
+    margin-top: 90px;
+}
+
+section:nth-of-type(2) .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+section:nth-of-type(2) h1 {
+    color: goldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+section:nth-of-type(2) h2 {
+    color: #252525;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+section:nth-of-type(2) p {
+    color: #252525;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+section:nth-of-type(2) img {
+    width: 100%;
+    float: right;
+}
+
+section:nth-of-type(2) a {
+    text-decoration: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    background: gold;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Hedvig Letters Serif', serif;
+    text-align: center;
+    padding-top: 5px;
+}
+
+section:nth-of-type(2) a:hover {
+    background: #252525;
+}
+
+/* ############################## END OF SECTION 2############################## */
+
+section:nth-of-type(3) {
+    width: 100%;
+    margin-top: 30px;
+    background: rgb(193, 224, 235);
+
+}
+
+section:nth-of-type(3) h1 {
+    padding-top: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+section:nth-of-type(3) h4 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+section:nth-of-type(3) .list {
+    display: flex;
+    justify-items: space-between;
+    flex-wrap: nowrap;
+    gap: 15px;
+    padding-top: 70px;
+    text-align: center;
+}
+
+section:nth-of-type(3) .icon1 {
+    font-size: 40px;
+    border-radius: 50%;
+    border: 15px solid transparent;
+    box-shadow: 0 0 0px 5px #FFD28F, 0 0 0px 10px #FFE3BB, 0 0 0px 15px #FFC7C7, 0 0 0px 20px #ED9ED6, 0 0 0px 25px #C3ACD0;
+}
+
+section:nth-of-type(3) figcaption {
+    margin-top: 60px;
+}
+
+/* ################################### END OF SECTION 3##########################  */
+
+section:nth-of-type(4) {
+    margin: 50px;
+}
+
+section:nth-of-type(4) h1 {
+    color: #252525;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box figure {
+    width: 350px;
+    padding: 20px;
+
+}
+
+.box figure img {
+    width: 100%;
+}
+
+section:nth-of-type(4) figcaption {
+    margin: 25px;
+}
+
+.box figure a {
+    text-decoration: none;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    background: gold;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Hedvig Letters Serif', serif;
+    display:block;
+}
+
+.box figure a:hover {
+    background: #252525;
+}
+
+/* ################################### END OF SECTION 4########################## */
+
+section:nth-of-type(5) {
+    width: 100%;
+    background: goldenrod;
+    margin-top: 100px;
+}
+
+section:nth-of-type(5) .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px;
+    gap: 25px;
+}
+
+section:nth-of-type(5) .text2 {
+    color: #252525;
+}
+
+section:nth-of-type(5) h1 {
+    font-size: 35px;
+    font-weight: 900;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+section:nth-of-type(5) h2 {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+}
+
+.enter input {
+    width: 300px;
+    height: 50px;
+    border: 2px solid goldenrod;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+::placeholder {
+    padding-left: 30px;
+    font-weight: bolder;
+}
+
+section:nth-of-type(5) .mes {
+    width: 472px;
+}
+
+section:nth-of-type(5) .button {
+    width: 140px;
+    background: #252525;
+    font-size: 22px;
+    color: lightgray;
+}
+
+section:nth-of-type(5) .button:hover {
+    color: wheat;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+/* ######################### END OF SECTION 5################################# */
+
+section:nth-of-type(6) {
+    background: url(/images/6.png) no-repeat center/cover;
+    background-color: rgba(0, 0, 0, 70%);
+    background-blend-mode: darken;
+}
+
+section:nth-of-type(6) .container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+section:nth-of-type(6) div {
+    color: white;
+    padding: 10px 0px;
+    flex: 1;
+}
+
+.part1 h3 {
+    font-family: 'Poppins', sans-serif;
+    color: lightgray;
+    font-size: 24px;
+}
+
+.compname h1 {
+    color: gold;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    margin-bottom: 3;
+}
+
+.compname h4 {
+    color: darkgray;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.part2 h3 {
+    font-family: 'Poppins', sans-serif;
+    color: lightgray;
+    font-size: 24px;
+}
+
+.part2 ul {
+    line-height: 35px;
+}
+
+.part2 ul li {
+    color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.part3 h3 {
+    font-family: 'Poppins', sans-serif;
+    color: lightgray;
+    font-size: 24px;
+}
+
+.part3 ul {
+    list-style: none;
+    line-height: 25px;
+    padding: 0px;
+}
+
+.part3 ul li {
+    color: lightgray;
+    font-size: 20px;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* padding-inline: 15px; */
+}
+.part3 li{
+    display: flex;
+    gap:10px;
+    padding: 0px;
+}
+.part3 ul li i {
+    font-size: 18px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+}
+
+.part4 h3 {
+    padding-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: lightgray;
+    font-size: 24px;
+}
+
+.part4 ul {
+    list-style: none;
+    line-height: 15px;
+    padding: 0px;
+}
+
+.part4 ul li {
+    color: lightgray;
+    font-size: 20px;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    display:flex;
+    gap:10px;
+}
+
+section:nth-of-type(6) .cc {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+
+.goldenicon {
+    font-size: 18px;
+    width: 40px;
+    padding: 5px;
+    height: 40px;
+    text-align: center;
+    border-radius: 100%;
+    background-color: gold;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.goldenicon i {
+    color: #252525;
+}
+
+footer p {
+    width: 100%;
+    height: 40px;
+    background: #252525;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+
+
+
+
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$ RESPONSIVITYYYYYYYYY $$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+
+/* @@@@@@@@@@@@@@@ FOR THE SIZE OF A TABLET 786PX @@@@@@@@@@@@@@@@@@@@@@ */
+@media screen and (min-width: 381px) and (max-width: 786px) {
+
+    .golden {
+        display: none;
+    }
+
+    /* ########################## END THE GOLDEN NAV ########################### */
+
+    nav ul {
+        list-style: none;
+        display: none;
+    }
+
+    nav i {
+        display: block;
+        float: right;
+        font-size: 30px;
+        color: #fff;
+        padding-left: 80px;
+    }
+
+    /* ########################## END THE GRAY NAV ########################### */
+
+
+    section:first-of-type p {
+        display: none;
+    }
+
+    /* ############################ END OF SECTION 1 #################### */
+
+
+    section:nth-of-type(2) .container {
+
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+
+    }
+
+    /* ############################## END OF SECTION 2############################## */
+
+    section:nth-of-type(3) .list {
+        flex-wrap: wrap;
+    }
+
+    section:nth-of-type(3) figure {
+        width: 40%;
+        margin-top: 40px;
+    }
+
+    /* ################################### END OF SECTION 3##########################  */
+
+    .box figure {
+        width: 250px;
+        padding: 10px;
+    
+    }
+    .box {
+        flex-wrap: wrap;
+    }
+    section:nth-of-type(4) .f3{
+        width:450px;
+    }
+
+/*###################################END OF SECTION 4##########################*/
+
+
+    section:nth-of-type(5) .container {
+        flex-wrap: wrap;
+    }
+
+    /* ######################### END OF SECTION 5################################# */
+
+    section:nth-of-type(6) .container {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+}
+
+
+
+
+
+
+
+/* @@@@@@@@@@@@@@@ FOR THE SIZE  380PX @@@@@@@@@@@@@@@@@@@@@@ */
+@media screen and (max-width: 381px) {
+
+    .golden {
+        display: none;
+    }
+
+    /* ########################## END THE GOLDEN NAV ########################### */
+
+    nav ul {
+        list-style: none;
+        display: none;
+    }
+
+    nav i {
+        display: block;
+        float: right;
+        font-size: 30px;
+        color: #fff;
+        padding-left: 80px;
+    }
+
+    /* ########################## END THE GRAY NAV ########################### */
+
+
+    section:first-of-type p {
+        display: none;
+    }
+    section:first-of-type h1 {
+        
+        font-size: 20px;
+
+    }
+    section:first-of-type .colored {
+        font-size: 25px;
+    }
+
+    /* ############################ END OF SECTION 1 #################### */
+
+
+    section:nth-of-type(2) .container {
+
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+
+    }
+
+    /* ############################## END OF SECTION 2########################### */
+    
+    section:nth-of-type(3) .list {
+        flex-wrap: wrap;
+    }
+    
+    
+    section:nth-of-type(3) figcaption {
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+
+    /* ################################### END OF SECTION 3##########################  */
+
+    .box figure {
+        padding-top: 15px;
+        margin-top: 10px;
+    
+    }
+    .box {
+        flex-wrap: wrap;
+    }
+
+/*###################################ENDOFSECTION4##########################*/
+
+
+    section:nth-of-type(5) .container {
+        flex-wrap: wrap;
+    }
+    .enter input {
+        width: 250px;
+    }
+    section:nth-of-type(5) .mes {
+        width: 270px;
+    }
+
+    /* ######################### END OF SECTION 5################################# */
+
+    section:nth-of-type(6) .container {
+        flex-wrap: wrap;
+        padding-inline:50px ;
+    }
+    .goldenicon {
+        font-size: 12px;
+        width: 25px;
+        height: 25px;
+    }
+    }
